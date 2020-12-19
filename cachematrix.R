@@ -5,7 +5,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
 
-##Initialising the matrix to avoid garbage values
+##Initialisation of matrix
 
     inverseMatrix <- NULL
     
