@@ -64,6 +64,8 @@ cacheSolve <- function(x, ...) {
   x$setinverseMatrix(inverse)
   
    print("Here is the inverted matrix")
+    
+ ##returns the inverse of the matrix
     return(inverse)
   
 }
