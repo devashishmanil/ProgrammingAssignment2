@@ -51,9 +51,7 @@ cacheSolve <- function(x, ...) {
 ##If the value is already calculated,Just return the cached data
 
   if (!is.null(inverse)) {
- 
-          
-          return(inverse)
+     return(inverse)
   }
   ##if the value is not already calculated, Calculate the inverse of the matrix
   ## if X is a square invertible matrix, then solve(X) returns its inverse.
